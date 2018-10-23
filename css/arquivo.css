@@ -12,7 +12,7 @@ header{
     text-align: justify;
 }
 
-aside{
+aside {
     background-color:#aabb97;
     height: 710x;
     color: black;
@@ -21,6 +21,16 @@ aside{
     float: right;
     margin-bottom: 10px;
 }
+
+a:link, a:visited {
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: black
+}
+
 
 main {
     background-color:#c8e6c9;
